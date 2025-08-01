@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmáciaSaúde - Sua Farmácia Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">F</div>
+                    <div class="logo-text">
+                        <h1>FarmáciaSaúde</h1>
+                        <p>Sua farmácia de confiança</p>
+                    </div>
+                </div>
+                <button class="btn-whatsapp" onclick="openWhatsApp()">
+                    <i class="fab fa-whatsapp"></i>
+                    Fale Conosco
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Sua saúde em primeiro lugar</h2>
+                <p>Entre em contato conosco pelo WhatsApp e encontre os melhores medicamentos, cosméticos e produtos de saúde com atendimento personalizado</p>
+                <button class="btn-hero" onclick="openWhatsApp()">
+                    <i class="fab fa-whatsapp"></i>
+                    Conversar no WhatsApp
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features">
+        <div class="container">
+            <h3>Por que escolher nossa farmácia?</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-truck feature-icon"></i>
+                    <h4>Entrega Rápida</h4>
+                    <p>Receba seus medicamentos em até 2 horas na região</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt feature-icon"></i>
+                    <h4>Produtos Originais</h4>
+                    <p>Garantia de autenticidade em todos os produtos</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users feature-icon"></i>
+                    <h4>Atendimento Personalizado</h4>
+                    <p>Farmacêuticos qualificados para te ajudar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products">
+        <div class="container">
+            <h3>Nossos Produtos</h3>
+            <p class="products-subtitle">Entre em contato pelo WhatsApp e consulte disponibilidade e preços</p>
+            <div class="products-grid">
+                <div class="product-card" onclick="openWhatsApp('Olá! Gostaria de saber mais sobre medicamentos.')">
+                    <div class="product-emoji">💊</div>
+                    <h4>Medicamentos</h4>
+                    <p>Remédios e medicamentos em geral</p>
+                    <button class="btn-product">Consultar</button>
+                </div>
+                <div class="product-card" onclick="openWhatsApp('Olá! Gostaria de saber mais sobre vitaminas.')">
+                    <div class="product-emoji">🌟</div>
+                    <h4>Vitaminas</h4>
+                    <p>Suplementos e vitaminas</p>
+                    <button class="btn-product">Consultar</button>
+                </div>
+                <div class="product-card" onclick="openWhatsApp('Olá! Gostaria de saber mais sobre cosméticos.')">
+                    <div class="product-emoji">💄</div>
+                    <h4>Cosméticos</h4>
+                    <p>Produtos de beleza e cuidados</p>
+                    <button class="btn-product">Consultar</button>
+                </div>
+                <div class="product-card" onclick="openWhatsApp('Olá! Gostaria de saber mais sobre higiene.')">
+                    <div class="product-emoji">🧴</div>
+                    <h4>Higiene</h4>
+                    <p>Produtos de higiene pessoal</p>
+                    <button class="btn-product">Consultar</button>
+                </div>
+                <div class="product-card" onclick="openWhatsApp('Olá! Gostaria de saber mais sobre produtos para bebê.')">
+                    <div class="product-emoji">👶</div>
+                    <h4>Bebê</h4>
+                    <p>Produtos para bebês e crianças</p>
+                    <button class="btn-product">Consultar</button>
+                </div>
+                <div class="product-card" onclick="openWhatsApp('Olá! Gostaria de saber mais sobre suplementos.')">
+                    <div class="product-emoji">💪</div>
+                    <h4>Suplementos</h4>
+                    <p>Suplementos alimentares</p>
+                    <button class="btn-product">Consultar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <div class="container">
+            <h3>Entre em Contato</h3>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <i class="fab fa-whatsapp contact-icon"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>Fale conosco diretamente pelo WhatsApp para atendimento rápido e personalizado</p>
+                        </div>
+                    </div>
+                    <button class="btn-contact" onclick="openWhatsApp()">Iniciar Conversa</button>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <div>
+                            <h4>Informações</h4>
+                            <p>Outras formas de contato e informações</p>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(11) 5196-6608</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>São Paulo, SP</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Seg-Sex: 8h às 18h</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h3>Precisa de ajuda?</h3>
+                <p>Nossa equipe está pronta para te atender no WhatsApp</p>
+                <button class="btn-cta" onclick="openWhatsApp()">Falar Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">F</div>
+                    <span>FarmáciaSaúde</span>
+                </div>
+                <p>&copy; 2025 FarmáciaSaúde. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
